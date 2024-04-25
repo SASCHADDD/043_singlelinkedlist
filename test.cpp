@@ -37,7 +37,12 @@ void addNode(){
 
     while ((current != NULL)&& (nim >= current->noMhs))
     {
-        /* code */
+        if (nim== current->noMhs)
+        {
+            cout << "NIM sudah ada" << endl;
+            return;
+        }
+        
     }
     
 }
