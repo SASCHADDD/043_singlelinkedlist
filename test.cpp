@@ -31,6 +31,9 @@ void addNode(){
         START = nodeBaru;
         return;
     }
+
+    Node* previoud = START;
+    Node* current = START;
 }
 
 
