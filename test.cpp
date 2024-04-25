@@ -60,9 +60,8 @@ bool deleteNode (int nim, Node* current, Node* previous){
     
     if (current == NULL)
     {
-        /* code */
+        return false;
     }
-    
 }
 
  
