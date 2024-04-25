@@ -49,6 +49,9 @@ void addNode(){
     nodeBaru->next = current;
     previous->next = nodeBaru;
 }
+bool deleteNode (int nim){
+    
+}
 
  
 
