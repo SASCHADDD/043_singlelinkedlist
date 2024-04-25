@@ -23,7 +23,8 @@ void addNode(){
     if (START == NULL || nim <= START -> noMhs){
         if (START != NULL && nim == START -> noMhs)
         {
-            /* code */
+            cout << "NIM sudah ada" << endl;
+            return;
         }
         
     }
