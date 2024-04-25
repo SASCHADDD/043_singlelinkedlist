@@ -49,7 +49,19 @@ void addNode(){
     nodeBaru->next = current;
     previous->next = nodeBaru;
 }
-bool deleteNode (int nim){
+bool deleteNode (int nim, Node* current, Node* previous){
+    previous = START;
+    current = START;
+    while (current != NULL && nim > current->noMhs)
+    {
+        previous = current;
+        current = current->next;
+    }
+    
+    if (current == NULL)
+    {
+        /* code */
+    }
     
 }
 
