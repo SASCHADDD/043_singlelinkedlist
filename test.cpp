@@ -34,6 +34,12 @@ void addNode(){
 
     Node* previoud = START;
     Node* current = START;
+
+    while ((current != NULL)&& (nim >= current->noMhs))
+    {
+        /* code */
+    }
+    
 }
 
 
